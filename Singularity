@@ -1,9 +1,10 @@
-Bootstrap: docker
-From: ubuntu:trusty
+BootStrap:docker
+From:ubuntu:16.04
 
+%post
 
-#%post  
-#echo "This section happens once after bootstrap to build the image."  
-#mkdir -p /code  
-#apt-get install vim  
-#echo "Kibbles and bits, but really more bits."  
+    echo "post"
+
+%runscript
+
+    exec echo "runscript"
