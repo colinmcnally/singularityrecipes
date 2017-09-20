@@ -1,5 +1,5 @@
-BootStrap:docker
-From:ubuntu:16.04
+Bootstrap:docker
+From:ubuntu:17.04
 
 %post
 
