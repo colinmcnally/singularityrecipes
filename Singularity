@@ -1,5 +1,5 @@
-BootStrap:docker  
-From:ubuntu:latest  
+Bootstrap: docker
+From: ubuntu:trusty
 
 
 #%post  
