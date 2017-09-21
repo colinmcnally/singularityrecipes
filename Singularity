@@ -3,7 +3,7 @@ From:ubuntu:17.04
 
 %post
 
-    echo "post"
+    echo "post post"
 
 %runscript
 
