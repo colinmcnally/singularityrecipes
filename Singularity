@@ -16,7 +16,7 @@ From:ubuntu:latest
     apt-get install texlive-latex-extra -y
 
     # build the font cache
-    python3 -c "import matplotlib"
+    python3 -c "import matplotlib.pyplot"
 
 %runscript
 
