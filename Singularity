@@ -1,5 +1,5 @@
 Bootstrap:docker
-From:ubuntu:latest
+From:ubuntu:zesty
 
 %post
     apt-get update -qq
@@ -17,9 +17,6 @@ From:ubuntu:latest
 
     # build the font cache
     python3 -c "import matplotlib.pyplot"
-    mkdir /data
-    mkdir /data/SPA-Discs
-    mkdir /data/SPA-Discs/mcnally
 
 %runscript
 
