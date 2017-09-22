@@ -20,4 +20,4 @@ From:ubuntu:latest
 
 %runscript
 
-    exec echo "runscript is empty"
+    exec echo "runscript is empty "
