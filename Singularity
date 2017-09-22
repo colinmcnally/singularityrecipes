@@ -13,6 +13,10 @@ From:ubuntu:latest
     apt-get install python3-scipy -y
     apt-get install texlive-latex-base -y
     apt-get install texlive-latex-extra -y
+    apt-get install dvipng -y
+
+    # build the font cache
+    python3 -c "import matplotlib"
 
 %runscript
 
