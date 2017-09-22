@@ -12,6 +12,7 @@ From:ubuntu:latest
     apt-get install python3-numpy -y
     apt-get install python3-scipy -y
     apt-get install texlive-latex-base -y
+    apt-get install texlive-latex-extra -y
 
 %runscript
 
