@@ -15,13 +15,11 @@ From:ubuntu:zesty
     apt-get install texlive-latex-base -y
     apt-get install texlive-latex-extra -y
     apt-get install htop -y
-    apt-get install htop -y
+    apt-get install git -y
 
-    #try building vmtouch, there's no Ubuntu package for it.
-    git clone https://github.com/hoytech/vmtouch
-    cd vmtouch
-    make
-    make install
+    add-apt-repository ppa:likemartinma/devel
+    apt-get update
+    apt-get vmtouch
 
     # build the font cache
     python3 -c "import matplotlib.pyplot"
