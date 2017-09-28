@@ -19,7 +19,8 @@ From:ubuntu:zesty
 
     add-apt-repository ppa:likemartinma/devel
     apt-get update
-    apt-get vmtouch
+    apt-get install vmtouch
+    apt-get install vim
 
     # build the font cache
     python3 -c "import matplotlib.pyplot"
