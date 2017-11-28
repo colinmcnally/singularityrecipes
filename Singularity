@@ -18,6 +18,7 @@ From:ubuntu:zesty
     apt-get install htop -y
     apt-get install git -y
 
+# vmtouch requires root.
 #    add-apt-repository ppa:likemartinma/devel
 #    apt-get update
 #    apt-get install vmtouch -y
