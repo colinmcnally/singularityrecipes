@@ -1,5 +1,5 @@
 Bootstrap:docker
-From:ubuntu:zesty
+From:ubuntu:bionic
 
 %post
     apt-get update -qq
