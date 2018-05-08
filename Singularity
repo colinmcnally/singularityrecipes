@@ -13,6 +13,7 @@ From:ubuntu:zesty
     apt-get install python3-numpy -y
     apt-get install python3-scipy -y
     apt-get install python3-pandas -y
+    apt-get install python3-plotly -y
     apt-get install texlive-latex-base -y
     apt-get install texlive-latex-extra -y
     apt-get install htop -y
