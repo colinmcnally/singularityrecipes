@@ -18,6 +18,7 @@ From:ubuntu:bionic
     apt-get install texlive-latex-extra -y
     apt-get install htop -y
     apt-get install git -y
+    apt-get install firefox -y
 
 # vmtouch requires root.
 #    add-apt-repository ppa:likemartinma/devel
