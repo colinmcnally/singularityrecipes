@@ -27,6 +27,7 @@ From:ubuntu:bionic
     apt-get install vim -y
 
     pip3 install plotly
+    pip3 install latexcodec
 
     # build the font cache
     python3 -c "import matplotlib.pyplot"
