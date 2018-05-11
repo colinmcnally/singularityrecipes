@@ -25,7 +25,7 @@ From:ubuntu:bionic
 #    apt-get install vmtouch -y
     apt-get install vim -y
 
-#    pip install plotly
+    pip3 install plotly
 
     # build the font cache
     python3 -c "import matplotlib.pyplot"
