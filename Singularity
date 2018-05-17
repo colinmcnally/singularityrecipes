@@ -19,6 +19,7 @@ From:ubuntu:bionic
     apt-get install htop -y
     apt-get install git -y
     apt-get install firefox -y
+    apt-get install x2goserver -y
 
 # vmtouch requires root.
 #    add-apt-repository ppa:likemartinma/devel
