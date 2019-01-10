@@ -36,7 +36,7 @@ From:ubuntu:bionic
 #    pip3 install latexcodec
 
     # build the font cache
-#    python3 -c "import matplotlib.pyplot"
+    python3 -c "import matplotlib.pyplot"
 
 %runscript
 
