@@ -21,6 +21,7 @@ From:ubuntu:bionic
     apt-get install git -y
     apt-get install firefox -y
     apt-get install x2goserver -y
+    apt-get install libosmesa6 -y
 
 # vmtouch requires root.
 #    add-apt-repository ppa:likemartinma/devel
