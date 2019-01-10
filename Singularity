@@ -5,6 +5,7 @@ From:ubuntu:bionic
     apt-get update -qq
     apt-get install wget software-properties-common apt-transport-https -y 
     apt-get install libosmesa6 -y
+    apt-get install libglu1-mesa -y
     apt-get install dvipng -y
     apt-get install less -y
     apt-get install ipython3 -y
