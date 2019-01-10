@@ -4,6 +4,7 @@ From:ubuntu:bionic
 %post
     apt-get update -qq
     apt-get install wget software-properties-common apt-transport-https -y 
+    apt-get install libosmesa6 -y
     apt-get install dvipng -y
     apt-get install less -y
     apt-get install ipython3 -y
@@ -15,13 +16,13 @@ From:ubuntu:bionic
     apt-get install python3-pandas -y
     apt-get install python3-seaborn -y
     apt-get install python3-pip -y
-    apt-get install texlive-latex-base -y
-    apt-get install texlive-latex-extra -y
-    apt-get install htop -y
-    apt-get install git -y
-    apt-get install firefox -y
-    apt-get install x2goserver -y
-    apt-get install libosmesa6 -y
+#    apt-get install texlive-latex-base -y#
+#    apt-get install texlive-latex-extra -y
+#    apt-get install htop -y
+#    apt-get install git -y
+#    apt-get install firefox -y
+#    apt-get install x2goserver -y
+
 
 # vmtouch requires root.
 #    add-apt-repository ppa:likemartinma/devel
