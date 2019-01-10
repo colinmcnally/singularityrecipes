@@ -5,17 +5,17 @@ From:ubuntu:bionic
     apt-get update -qq
     apt-get install wget software-properties-common apt-transport-https -y 
     apt-get install libosmesa6 -y
-    apt-get install dvipng -y
-    apt-get install less -y
-    apt-get install ipython3 -y
-    apt-get install ipython3-qtconsole -y
-    apt-get install python3-matplotlib -y
-    apt-get install python3-h5py -y
-    apt-get install python3-numpy -y
-    apt-get install python3-scipy -y
-    apt-get install python3-pandas -y
-    apt-get install python3-seaborn -y
-    apt-get install python3-pip -y
+#    apt-get install dvipng -y
+#    apt-get install less -y
+#    apt-get install ipython3 -y
+#    apt-get install ipython3-qtconsole -y
+#    apt-get install python3-matplotlib -y
+#    apt-get install python3-h5py -y
+#    apt-get install python3-numpy -y
+#    apt-get install python3-scipy -y
+#    apt-get install python3-pandas -y
+#    apt-get install python3-seaborn -y
+#    apt-get install python3-pip -y
 #    apt-get install texlive-latex-base -y#
 #    apt-get install texlive-latex-extra -y
 #    apt-get install htop -y
@@ -30,11 +30,11 @@ From:ubuntu:bionic
 #    apt-get install vmtouch -y
     apt-get install vim -y
 
-    pip3 install plotly
-    pip3 install latexcodec
+#    pip3 install plotly
+#    pip3 install latexcodec
 
     # build the font cache
-    python3 -c "import matplotlib.pyplot"
+#    python3 -c "import matplotlib.pyplot"
 
 %runscript
 
