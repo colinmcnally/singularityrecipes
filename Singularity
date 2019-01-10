@@ -16,7 +16,7 @@ From:ubuntu:bionic
     apt-get install python3-pandas -y
     apt-get install python3-seaborn -y
     apt-get install python3-pip -y
-    apt-get install texlive-latex-base -y#
+    apt-get install texlive-latex-base -y
     apt-get install texlive-latex-extra -y
     apt-get install htop -y
     apt-get install git -y
