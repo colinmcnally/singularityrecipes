@@ -22,7 +22,7 @@ From:ubuntu:bionic
     apt-get install htop -y
     apt-get install git -y
     apt-get install firefox -y
-#    apt-get install x2goserver -y
+    apt-get install x2goserver -y
 
 
 # vmtouch requires root.
@@ -31,6 +31,7 @@ From:ubuntu:bionic
 #    apt-get install vmtouch -y
     apt-get install vim -y
 
+# these might not work in latest version
 #    pip3 install plotly
 #    pip3 install latexcodec
 
