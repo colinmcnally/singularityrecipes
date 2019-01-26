@@ -13,6 +13,7 @@ From:ubuntu:bionic
     apt-get install python3-matplotlib -y
     apt-get install python3-h5py -y
     apt-get install python3-numpy -y
+    apt-get install python3-mpi4py -y
     apt-get install python3-scipy -y
     apt-get install python3-pandas -y
     apt-get install python3-seaborn -y
