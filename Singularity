@@ -22,6 +22,7 @@ From:ubuntu:bionic
     apt-get install texlive-latex-extra -y
     apt-get install htop -y
     apt-get install git -y
+    apt-get install mercurial -y
     apt-get install firefox -y
     apt-get install x2goserver -y
 
