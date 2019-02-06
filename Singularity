@@ -40,7 +40,7 @@ From:ubuntu:bionic
     # build the font cache
     python3 -c "import matplotlib.pyplot"
     
-    git clone https://colinmcnally@bitbucket.org/colinmcnally/pyevtk
+    hg clone https://colinmcnally@bitbucket.org/colinmcnally/pyevtk
     cd pyevtk
     python3 setup.py install
 
