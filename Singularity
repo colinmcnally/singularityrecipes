@@ -36,7 +36,8 @@ From:ubuntu:bionic
 # these might not work in latest version
 #    pip3 install plotly
 #    pip3 install latexcodec
-
+    pip install rebound
+    
     # build the font cache
     python3 -c "import matplotlib.pyplot"
     
