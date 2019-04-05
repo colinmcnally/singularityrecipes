@@ -1,5 +1,5 @@
 Bootstrap:docker
-From:ubuntu:bionic
+From:ubuntu:cosmic
 
 %post
     apt-get update -qq
