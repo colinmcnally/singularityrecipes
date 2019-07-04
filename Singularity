@@ -1,5 +1,5 @@
 Bootstrap:docker
-From:ubuntu:cosmic
+From:ubuntu:disco
 
 %post
     apt-get update -qq
@@ -25,7 +25,8 @@ From:ubuntu:cosmic
     apt-get install mercurial -y
     apt-get install firefox -y
     apt-get install x2goserver -y
-
+    apt-get install imagemagick -y
+    apt-get install feh -y
 
 # vmtouch requires root.
 #    add-apt-repository ppa:likemartinma/devel
