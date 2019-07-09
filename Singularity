@@ -45,6 +45,9 @@ From:ubuntu:disco
     hg clone https://colinmcnally@bitbucket.org/colinmcnally/pyevtk
     cd pyevtk
     python3 setup.py install
+    
+%environment
+    export PYTHONPATH=~/vc/fargo3d-cm/python
 
 %runscript
 
