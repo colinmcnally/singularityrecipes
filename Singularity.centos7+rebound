@@ -1,0 +1,33 @@
+BootStrap: docker
+From: centos:centos7
+
+# Install rebound as a library in a CentOS7 container
+
+%environment
+    export PYTHONPATH=/opt/local/rebound
+    export REB_DIR=/opt/local/rebound
+    export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/local/rebound
+    export C_INCLUDE_PATH=$C_INCLUDE_PATH:/opt/local/rebound/src
+
+%post
+  #add EPEL repos Extra Packages for Enterprise Linux
+  yum -y install epel-release
+  yum -y update && yum -y upgrade
+  yum -y install git \
+   libtool autoconf automake make \
+   rpm-build wget glfw-devel
+
+  cd /opt/
+  mkdir -p local
+  cd local
+  git clone https://github.com/hannorein/rebound.git
+  cd rebound
+  git reset --hard a513fb18020a79a4da312252b721afd45d5ce345
+  make
+  cd examples
+  make
+  
+
+%runscript
+
+  /opt/local/rebound/examples/simplest/rebound 
